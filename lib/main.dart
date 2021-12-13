@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       title: "My App",
-      home:  Scaffold(.
+      home:  Scaffold(
         appBar:  AppBar(
           title: Text('My First App'),
         ),
