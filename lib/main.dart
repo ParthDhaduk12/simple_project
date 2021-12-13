@@ -1,8 +1,6 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 
-void main() {
+void main(){
   runApp(new MyApp());
 }
 
@@ -11,7 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  MaterialApp(
       title: "My App",
       home: Scaffold(
         appBar: AppBar(
@@ -26,3 +24,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
