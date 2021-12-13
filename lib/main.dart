@@ -1,8 +1,6 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 
-void main() {
+void main(){
   runApp(new MyApp());
 }
 
@@ -11,18 +9,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  MaterialApp(
       title: "My App",
-      home: Scaffold(
-        appBar: AppBar(
-            title:
-                Text('My First App', style: TextStyle(color: Colors.yellow))),
-        body: Center(
-            child: Text(
-          'This is my default text',
-          style: TextStyle(color: Colors.red),
-        )),
+      home:  Scaffold(
+        appBar:  AppBar(
+          title: Text('My First App'),
+        ),
+        body:  Text('This is my default text')
+         ,
       ),
     );
   }
 }
+
