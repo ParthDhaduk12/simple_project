@@ -11,12 +11,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       title: "My App",
-      home:  Scaffold(
-        appBar:  AppBar(
-          title: Text('My First App'),
-        ),
-        body:  Text('This is my default text')
-         ,
+      home: Scaffold(
+        appBar: AppBar(
+            backgroundColor: Colors.black,
+            title: Text('My First App', style: TextStyle(color: Colors.white))),
+        body: Center(
+            child: Text(
+          'This is my default text',
+          style: TextStyle(color: Colors.red),
+        )),
       ),
     );
   }
