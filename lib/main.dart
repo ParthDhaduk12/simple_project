@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       title: "My App",
       home: Scaffold(
         appBar: AppBar(
-            title:
-                Text('My First App', style: TextStyle(color: Colors.yellow))),
+            backgroundColor: Colors.black,
+            title: Text('My First App', style: TextStyle(color: Colors.white))),
         body: Center(
             child: Text(
           'This is my default text',
